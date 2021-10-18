@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_blog=self.webpackChunkgatsby_starter_blog||[]).push([[629],{9562:function(t,e,l){l.r(e);var a=l(7294),n=l(7198),i=l(3751);e.default=function(t){var e,l=t.data,r=t.location,s=(null==l||null===(e=l.site.siteMetadata)||void 0===e?void 0:e.title)||"Title";return a.createElement(n.Z,{location:r,title:s},a.createElement(i.Z,{title:"index"}),a.createElement("p",null,"対応業務紹介ページ"))}}}]);
+//# sourceMappingURL=component---src-pages-services-index-js-9b60b96a8675d0048421.js.map

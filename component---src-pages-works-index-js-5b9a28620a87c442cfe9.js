@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgatsby_starter_blog=self.webpackChunkgatsby_starter_blog||[]).push([[447],{7797:function(t,e,l){l.r(e);var a=l(7294),n=l(7198),i=l(3751);e.default=function(t){var e,l=t.data,r=t.location,s=(null==l||null===(e=l.site.siteMetadata)||void 0===e?void 0:e.title)||"Title";return a.createElement(n.Z,{location:r,title:s},a.createElement(i.Z,{title:"index"}),a.createElement("p",null,"プロダクト紹介ページ"))}}}]);
+//# sourceMappingURL=component---src-pages-works-index-js-5b9a28620a87c442cfe9.js.map
