@@ -27,15 +27,25 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
 
-#      - run: npm ci
-      - run: yarn lint
-#      - run: npm run test
-      - run: yarn build
+      - name: npm install
+        run: npm install --frozen-lockfile
 
-      - name: Deploy
+      - name: npm run lint
+        run: npm run lint
+
+      - name: npm run build
+        run: npm run build
+
+      - name: export
+        run: npm run export
+
+      - name: add nojekyll
+        run: touch ./out/.nojekyll
+
+      - name: deploy
         uses: peaceiris/actions-gh-pages@v3
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./out
           cname: promitsu.jp
