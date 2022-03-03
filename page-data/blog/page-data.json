@@ -1,5 +1,0 @@
-{
-    "componentChunkName": "component---src-pages-blog-index-js",
-    "path": "/blog/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Promitsujp"}},"allMarkdownRemark":{"nodes":[{"excerpt":"React.js を触る機会が増えそうな気配が濃厚だったので、ふと思い立ち Gatsby.js でブログを作って、Github Pages で公開しようと思い、どうせなら GitHub Actions で CI…","fields":{"slug":"/creating-blogging-environment-with-gatsbyjs-github-pages-and-actions/"},"frontmatter":{"date":"September 04, 2021","title":"GatsbyとGithub ActionsでGithub Pagesにブログを公開する","description":null}}]}},"pageContext":{}},
-    "staticQueryHashes": ["2841359383","3257411868"]}
